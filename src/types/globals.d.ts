@@ -1,7 +1,10 @@
 declare global {
-	type Link = {
+	type Project = {
 		name: string
-		url: string
+		image: string
+		sourceCode: string
+		url?: string
+		size: string
 	}
 }
 
